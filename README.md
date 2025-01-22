@@ -3,6 +3,10 @@
 ## 注意！注意！注意！
 本版本是在ChanCMS的基本上开发的【企业网站模板】版本，并对一些一些不习惯的地方进行了升级改造
 
+### 项目效果图
+<img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/home.png">
+<img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/2.png">
+<img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/3.png">
 
 ### 下面是ChanCMS的基本介绍
 
