@@ -1,15 +1,15 @@
 # ChanCMS内容管理系统-企业网站版
 
-## 注意！注意！注意！
+## 🍇注意！注意！注意！
 本版本是在ChanCMS的基本上开发的【企业网站模板】版本，并对一些不习惯的地方进行了升级改造,无意中发现这个CMS不错，但是加作者和交流群反馈很少，无奈之下就自己做了一些修改，做了一个这种完整的【企业站】模板的。
 
-### 项目效果图
+### 🍒项目效果图
 <img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/home.png">
 <img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/2.png">
 <img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/3.png">
 
 
-### 可以加我微信交流学习，人多的话我会建个群，一起讨论
+### 🍅可以加我微信交流学习，人多的话我会建个群，一起讨论
 <img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/4.png">
 
 
@@ -31,7 +31,8 @@
 * 如果想对后台功能进行修改或开发，就需要在本地同时打开第二个dev，这个时候你的编辑器会有网址直接打开就可以进入后台，然后在server里找到源文件进行修改
 * server文件夹在作者原项目中是单独的一个库，这是这个系统的后台的源文件，在`app/public/admin`下是生成过后的生成文件
 * 对server内的文件修改好后可以build生成一下，生成后把`server`下`dist`内的文件复制到`app/public/admin`下，直接覆盖，那就可以在`localhost`进行访问看到效果了，平时修改时直接在`server`下`dev`修改查看即可。
-
+* gitreposuse文件夹是为了在github上展示图片设置的，你download项目后可以直接删除
+* 有点耐心，项目一开始你没了解清楚的情况下可以总是运行不起来，这可能不是项目的问题，你需要的仅仅是一点耐心，你第一次接触这项目用了两天时间才把这项目运行起来，所以别灰心
 
 ## 🍌下面是ChanCMS的基本介绍
 ChanCMS的地址：https://github.com/mingkong2023/ChanCMS
