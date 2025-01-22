@@ -15,7 +15,7 @@
 ## 下面是ChanCMS的基本介绍
 ChanCMS的地址：https://github.com/mingkong2023/ChanCMS
 
-## 认真看下面的几点
+## 🌈认真看下面的几点
 ```
 |-ChanCMS-master\package.json
  |-dev
