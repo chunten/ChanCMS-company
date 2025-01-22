@@ -33,7 +33,7 @@
 * 对server内的文件修改好后可以build生成一下，生成后把`server`下`dist`内的文件复制到`app/public/admin`下，直接覆盖，那就可以在`localhost`进行访问看到效果了，平时修改时直接在`server`下`dev`修改查看即可。
 
 
-## 下面是ChanCMS的基本介绍
+## 🍌下面是ChanCMS的基本介绍
 ChanCMS的地址：https://github.com/mingkong2023/ChanCMS
 
 ChanCMS是一款基于Node、Express、MySQL、Vue3研发的高质量实用型CMS系统。轻量、灵活、稳定、高性能、易扩展，让开发更简单。
