@@ -1,14 +1,19 @@
 # ChanCMS内容管理系统-企业网站版
 
 ## 注意！注意！注意！
-本版本是在ChanCMS的基本上开发的【企业网站模板】版本，并对一些一些不习惯的地方进行了升级改造
+本版本是在ChanCMS的基本上开发的【企业网站模板】版本，并对一些不习惯的地方进行了升级改造,无意中发现这个CMS不错，但是加作者和交流群反馈很少，无奈之下就自己做了一些修改，做了一个这种完整的【企业站】模板的。
 
 ### 项目效果图
 <img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/home.png">
 <img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/2.png">
 <img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/3.png">
 
-### 下面是ChanCMS的基本介绍
+
+### 可以加我微信交流学习，人多的话我会建个群，一起讨论
+<img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/4.png">
+## 下面是ChanCMS的基本介绍
+ChanCMS的地址：https://github.com/mingkong2023/ChanCMS
+
 
 ==========================
 ChanCMS是一款基于Node、Express、MySQL、Vue3研发的高质量实用型CMS系统。轻量、灵活、稳定、高性能、易扩展，让开发更简单。
