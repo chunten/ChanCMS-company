@@ -31,9 +31,11 @@ ChanCMS的地址：https://github.com/mingkong2023/ChanCMS
 ```
 * 用WebStorm打开会有2个可以运行的服务（如上），如果不对后台功能进行修改直接在本地运行第一个的dev，运行即可：运行后打开`localhost`就可以看到效果，记得把数据库先要配置好。
 * 如果想对后台功能进行修改或开发，就需要在本地同时打开第二个dev，这个时候你的编辑器会有网址直接打开就可以进入后台，然后在server里找到源文件进行修改
-* server文件夹在作者原项目中是单独的一个库，这是这个系统的后台的源文件，在app/public/admin下是生成过后的生成文件
+* server文件夹在作者原项目中是单独的一个库，这是这个系统的后台的源文件，在`app/public/admin`下是生成过后的生成文件
+* 对server内的文件修改好后可以build生成一下，生成后把`server`下`dist`内的文件复制到`app/public/admin`下，直接覆盖，那就可以在`localhost`进行访问看到效果了，平时修改时直接在`server`下`dev`修改查看即可。
 
 ==========================
+
 ChanCMS是一款基于Node、Express、MySQL、Vue3研发的高质量实用型CMS系统。轻量、灵活、稳定、高性能、易扩展，让开发更简单。
 
 
