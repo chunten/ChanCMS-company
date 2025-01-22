@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="{{cate.seoDescription || site.description}}">
+    <meta name="keywords" content="{{cate.seoKeywords || site.keywords}}" />
+    <meta property="og:title" content="{{cate.seoTitle || cate.name}}-{{site.name}}" />
+    <meta property="og:description" content="{{site.description}}" />
+    <title>{{article.title || cate.name}}-{{site.name}}</title>
+    <script src="//api.map.baidu.com/api?v=1.4"></script>
+    {{include './common/meta.html'}}
+</head>
+<body>
+    <!-- 头部 -->
+    {{include './common/header.html'}}
+    <main class="pt-10">
+        <div id="mapCanvas" class="map-canvas no-margin" style="height: 450px;">
+            <script type="text/javascript">
+                let x=113.610872
+                let y=34.892233
+                var map   = new BMap.Map("mapCanvas"); // 创建Map实例
+                var point = new BMap.Point(x, y); // 创建点坐标
+                map.centerAndZoom(point, 15); // 初始化地图,设置中心点坐标和地图级别。
+                //map.enableScrollWheelZoom(); //启用滚轮放大缩小
+                //添加缩放控件
+                map.addControl(new BMap.NavigationControl());
+                map.addControl(new BMap.ScaleControl());
+                map.addControl(new BMap.OverviewMapControl());
+
+                var marker = new BMap.Marker(point); // 创建标注
+                map.addOverlay(marker); // 将标注添加到地图中
+                var infoWindow = new BMap.InfoWindow("{{site.name}}<br/>{{site.address}}<br/>{{site.tel}}、{{site.tel1}}"); // 创建信息窗口对象
+                marker.openInfoWindow(infoWindow);
+            </script>
+        </div>
+
+        <div class="container-fluid">
+            <div class="container xTel">
+                <h3>咨询电话</h3>
+                <h4>电话：{{site.tel}}、{{site.tel1}}</h4>
+                <h4>邮箱：{{site.email}}</h4>
+                <h4>联系地址：{{site.address}}</h4>
+            </div>
+            <hr class="container hr1" />
+        </div>
+        <div class="container">
+                <div class="aboutPic owl-carousel owl-theme">
+                    {{ if article.pics && article.pics.length>0}}
+                    {{each article.pics}}
+                        <div class=" oneItem">
+                            <a href="#">
+                                <img  class="img-responsive" src={{$value.path}} alt="">
+                            </a>
+                            <div class="titley">{{$value.name}}</div>
+                        </div>
+                    {{/each}}
+                    {{/if}}
+                </div>
+        </div>
+            <div class="bg-fff  pd-25 content">
+                {{if article?.content}}
+                <article id="article" class="article-cont f-17 lh-35">
+                    {{@ article.content}}
+                </article>
+                {{/if}}
+            </div>
+
+    </main>
+    <!-- 头条文章 -->
+
+    <!-- footer -->
+
+    <!-- 移动端导航 -->
+    {{include './common/wap-nav.html'}}
+
+    <div class="api ignore mb-20 mt-20 pd-20 bg-f2f2f2">
+        <h1>ChanCMS 当前页面数据：</h1>
+        <p class="mb-20">site-> {{site}} </p>
+        <p class="mb-20">nav-> {{nav}} </p>
+        <p class="mb-20">category-> {{category}}</p>
+        <p class="mb-20">friendlink-> {{friendlink}}</p>
+        <p class="mb-20">base_url-> {{base_url}}</p>
+        <p class="mb-20">frag--->{{frag}}</p>
+        <p class="mb-20">ad--->{{frag.ad}}</p>
+        <p class="mb-20">tag--->{{tag}}</p>
+        <p class="mb-20">position------>{{position}}</p>
+        <p class="mb-20">navSub------>{{navSub}}</p>
+        <p class="mb-20">list------>{{data}}</p>
+        <p class="mb-20">article------>{{article}}</p>
+    </div>
+    {{include './common/footer.html'}}
+    <script src="{{base_url}}/js/jquery-3.6.0.min.js"></script>
+    <script src="{{base_url}}/js/owl.carousel.min.js"></script>
+<script language="JavaScript">
+    $('.aboutPic').owlCarousel({
+        loop:false,
+        autoplay:true,
+        margin:20,
+        center:false,//居中显示
+        items:4,
+        dots:true,
+        responsive:{
+            0:{
+                items:3,
+                slideBy: 1,
+                margin:10,
+            },
+            600:{
+                items:3,
+                slideBy: 3,
+                margin:40,
+            },
+            1000:{
+                items:4,
+                slideBy: 4,
+                margin:30,
+            }
+        }
+    })
+</script>
+</body>
+
+</html>

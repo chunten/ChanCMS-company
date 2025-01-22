@@ -1,0 +1,1 @@
+import{e as t,A as a}from"./index.js";let e=()=>t({url:"".concat(a.BASE_API,"/api/site/find"),method:"get"}),o=e=>(console.log(e),t({url:"".concat(a.BASE_API,"/api/site/update"),method:"post",data:e})),s=()=>t({url:"".concat(a.BASE_API,"/api/site/runEnv"),method:"get"});export{s as r,e as s,o as u};

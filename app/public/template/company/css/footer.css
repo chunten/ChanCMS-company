@@ -1,0 +1,85 @@
+.footer-area {color: #ffffff;}
+.col-lg-4:nth-child(1) .single-footer-widget {padding-right: 32px;}
+.col-lg-3:nth-child(2) .single-footer-widget {padding-left: 9px;}
+.col-lg-2:nth-child(3) .single-footer-widget {padding-left: 32px;}
+.footer-logo {padding: 34px 0 25px;}
+.footer-logo > a {display: inline-block;}
+.single-footer-widget > h4 {
+    line-height: 13px;
+    text-transform: uppercase;
+    margin-bottom: 30px
+}
+.c-icon {
+    border: 1px solid #bdbdbd;
+    color: #fff;
+    display: inline-block;
+    float: left;
+    font-size: 18px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 20px;
+    margin-top: 6px;
+    text-align: center;
+    width: 32px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s
+}
+.footer-c-info:hover .c-icon {
+    background: #00D8FF none repeat scroll 0 0;
+    border-color: #00D8FF;
+    color: #ffffff;
+}
+.c-text {overflow: hidden;}
+.footer-c-info {margin-bottom: 9px; overflow: hidden;display: flex;align-items: center}
+.footer-list a {
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.footer-list a:hover {padding-left: 5px;}
+.p-title, .f-post-date {color: #fff; display: block;}
+.p-title {line-height: 24px; margin-bottom: 7px;}
+.f-post-date {line-height: 18px;}
+.single-footer-widget a:hover {color: #00D8FF;}
+.footer-c-info:last-child, .footer-list li:last-child a, .footer-post:last-child {margin: 0;}
+.footer-text-area {border-top: 1px solid #636363;}
+.footer-text > span {display: block; line-height: 19px;}
+.footer-text, .footer-text a {color: #fff;}
+.footer-text a:hover {
+    border-bottom: 1px solid #00D8FF;
+    color: #00D8FF;
+}
+.bg-dark-3 {
+    background: #2F2F2F;
+}
+.ptb-110 {
+    padding: 110px 0;
+}
+p {
+    line-height: 24px;
+    font-size: 14px;
+}
+.ptb-20 {
+    padding: 20px 0;
+}
+a, button, input {
+    outline: medium none;
+    color: #606060;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+body {
+    color: #5e5e5e;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-family: 'Poppins', sans-serif;
+}
+h4{font-weight: 400;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 18px;
+}
+.ps-lg-4{padding-left: 1.5rem!important;}

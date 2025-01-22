@@ -1,0 +1,1 @@
+System.register(["./index-legacy.js"],(function(e,t){"use strict";var s,i;return{setters:[e=>{s=e.e,i=e.A}],execute:function(){e("s",(()=>s({url:`${i.BASE_API}/api/site/find`,method:"get"}))),e("u",(e=>(console.log(e),s({url:`${i.BASE_API}/api/site/update`,method:"post",data:e})))),e("r",(()=>s({url:`${i.BASE_API}/api/site/runEnv`,method:"get"})))}}}));
