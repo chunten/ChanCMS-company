@@ -4,9 +4,9 @@
 本版本是在ChanCMS的基本上开发的【企业网站模板】版本，并对一些不习惯的地方进行了升级改造,无意中发现这个CMS不错，但是加作者和交流群反馈很少，无奈之下就自己做了一些修改，做了一个这种完整的【企业站】模板的。
 
 ### 🍒项目效果图
-<img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/home.png">
-<img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/2.png">
-<img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/3.png">
+<img width="50%" src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/home.png">
+<img width="50%" src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/2.png">
+<img width="50%" src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/3.png">
 
 
 ### 🍅可以加我微信交流学习，人多的话我会建个群，一起讨论
