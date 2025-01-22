@@ -10,7 +10,7 @@
 
 
 ### 🍅可以加我微信交流学习，人多的话我会建个群，一起讨论，如果真的对你有帮助，可以打个赏
-<img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/4.png">
+<img src="https://github.com/chunten/ChanCMS-company/blob/main/gitreposuse/4.jpg">
 
 
 ## 🌈认真看下面的几点
