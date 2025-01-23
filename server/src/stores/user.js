@@ -14,13 +14,13 @@ export const userStore = defineStore("user", {
       try {
         const res = await Login.toLogin(params);
         if (res.code == 200) {
-          console.log("登陆成功")
+          console.log("登陆成功1")
           this.token = res.data.token;
           setCookie("token", res.data.token);
         }
         return res;
       } catch (error) {
-        console.log("登陆失败")
+        console.log("登陆失败2")
         console.log(error);
       }
     },

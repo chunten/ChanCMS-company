@@ -27,7 +27,7 @@
             title="上传"
             :width="200"
             trigger="hover"
-            content="上传图片作为封面图，大小200k内"
+            content="上传图片作为封面图，大小2MB内"
           >
             <template #reference>
               <el-icon class="avatar-uploader-icon">
@@ -124,8 +124,8 @@ export default {
         this.$message("上传文件只能是图片格式");
         return false;
       }
-      if (rawFile.size / 1024 / 1024 > 0.4) {
-        this.$message("上传图片必须小于200k");
+      if (rawFile.size / 1024 / 1024 >2) {
+        this.$message("上传图片必须小于2MB");
         return false;
       }
     },

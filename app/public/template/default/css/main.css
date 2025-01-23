@@ -219,7 +219,7 @@ html {
 }
 
 .el-button--primary {
-    background-image: linear-gradient(315deg, #6772FF 0, #00F9E5 100%);
+    background-image: linear-gradient(315deg, #3C546E 0, #517194 100%);
     background-size: 104% 104%;
     color: #fff;
     border: none;
